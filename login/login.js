@@ -4,10 +4,17 @@ $(document).ready(function(event) {
 
         let email = $("input#exampleInputEmail1").val();
         let password = $("input#pasword").val();
+        var check = $("input[type=checkbox]:checked")
         if ((email === "") || (password === "")) {
             alert("you have empty inputs checkout");
         } else {
-            alert(email);
+            if ($("#disabledFieldsetCheck").is(':checked')) {
+                alert(email + '\r\n' + " your password is safe with us");
+            } else {
+                alert(email);
+            }
+
+
         }
 
 
