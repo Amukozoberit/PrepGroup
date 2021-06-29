@@ -1,0 +1,9 @@
+container-fluid {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+form {
+    width: 50%;
+}
