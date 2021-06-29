@@ -1,0 +1,21 @@
+.navbar.navbar-dark .nav-item .nav-link {
+    color: #fff!important;
+}
+
+.navbar.navbar-dark .nav-item .nav-link:hover {
+    color: #fff!important;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: #777;
+    background-color: #777;
+}
+
+.fixed-top {
+    background-color: #000;
+}
