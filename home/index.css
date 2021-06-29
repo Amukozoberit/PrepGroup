@@ -33,3 +33,25 @@ body {
 .fixed-top{
     background-color: #000;
 }
+
+.display-4 {
+    color: #fff;
+}
+
+.display-4 span {
+    color: #fff;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: #000;
+    opacity: 0.9;
+    padding: 40px;
+    border-radius: 20px;
+    width: 80%;
+}
