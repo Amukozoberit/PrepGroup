@@ -1,9 +1,11 @@
 .container-fluid {
     display: flex;
+    margin: 20%;
     justify-content: center;
     align-items: center;
     border: blue solid;
-    width: px;
+    padding: 50px;
+    width: 80%;
 }
 
 form {
