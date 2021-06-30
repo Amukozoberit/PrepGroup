@@ -7,6 +7,8 @@
   <meta name="Description" content="Enter your description here"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./Restraunts.css">
   <title>Restaurants</title>
 </head>
@@ -61,13 +63,12 @@
       <center>
           <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="col">
               <div class="card h-100">
               <img src="https://lh5.googleusercontent.com/p/AF1QipMT9ZO54J1YmtTqh7pl7xqm9XJfEp79gZSAVMdN=w408-h306-k-no" class="card-img-top" alt="..." width="680px" height="250px">
-              <div class="card-body">
+              <div class="card-body" id="det1">
                   <h5 class="card-title">Seven Seafood & Grill</h5>
               </div>
-                <div class="details">
+                <div class="details1">
                   <ul class="list-group list-group-flush">
                       <li class="list-group-item"><b>Physical Address:</b> Waiyaki Way, Nairobi</li>
                       <li class="list-group-item"><b>Phone</b>:  020 2844000</li>
@@ -75,20 +76,21 @@
                   </ul>
                   <div class="card-body">
                       <a href="http://www.experienceseven.com/" class="card-link" target="blank_">Website</a>
-                      <a href="https://goo.gl/maps/sFYDkRo71haXpnci9" class="card-link" target="blank_">Directions</a>
+                      <p id="location">Location</p>
                   </div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.853779680256!2d36.774159315284415!3d-1.2598826359545927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f19dbdee3c31f%3A0x710f57ec90e1c4c7!2sSeven%20Seafood%20%26%20Grill!5e0!3m2!1sen!2s!4v1625066818333!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <div id="details1">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.853779680256!2d36.774159315284415!3d-1.2598826359545927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f19dbdee3c31f%3A0x710f57ec90e1c4c7!2sSeven%20Seafood%20%26%20Grill!5e0!3m2!1sen!2s!4v1625066818333!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
                 </div>
               </div>
-          </div>
           </div>
           <div class="col">
               <div class="card h-100">
               <img src="https://lh5.googleusercontent.com/p/AF1QipPPMX4Mi_pnOEMSmFzdxOHReQeWZPecbQNUFv7K=w408-h271-k-no" class="card-img-top" alt="..." width="680px" height="250px">
-              <div class="card-body">
+              <div class="card-body" id="det2">
                   <h5 class="card-title">CJ's</h5>
               </div>
-                <div class="details">
+                <div class="details2">
                   <ul class="list-group list-group-flush">
                       <li class="list-group-item"><b>Physical Address:</b> Koinange St, Nairobi</li>
                       <li class="list-group-item"><b>Phone</b>:  020 3045000</li>
@@ -96,9 +98,11 @@
                   </ul>
                   <div class="card-body">
                       <a href="http://cjs.co.ke/" class="card-link" target="blank_">Website</a>
-                      <a href="https://goo.gl/maps/g9epGzJY7GeAEK6i6" class="card-link" target="blank_">Directions</a>
+                      <p id="location1">Location</p>
                   </div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.542468373365!2d36.800910639550786!3d-1.2831612999999829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d3e7ba48f1%3A0x22a6d294c0b82185!2sCJ&#39;s!5e0!3m2!1sen!2s!4v1625067677170!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <div id="details2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31910.542468373365!2d36.800910639550786!3d-1.2831612999999829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d3e7ba48f1%3A0x22a6d294c0b82185!2sCJ&#39;s!5e0!3m2!1sen!2s!4v1625067677170!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
                 </div>
               </div>
           </div>
@@ -106,9 +110,9 @@
               <div class="card h-100">
               <img src="https://lh5.googleusercontent.com/p/AF1QipNOsynnfNTvfYdCEf4a9tDIi_LSW4Bm7cRxqkXE=w408-h272-k-no" class="card-img-top" alt="..." width="680px" height="250px">
               <div class="card-body">
-                  <h5 class="card-title">About Thyme Restaurant</h5>
+                  <h5 class="card-title" id="det3">About Thyme Restaurant</h5>
               </div>
-                <div class="details">
+                <div class="details3">
                   <ul class="list-group list-group-flush">
                       <li class="list-group-item"><b>Physical Address:</b> Eldama Ravine Rd, Nairobi</li>
                       <li class="list-group-item"><b>Phone</b>: 020 7762000</li>
@@ -116,9 +120,11 @@
                   </ul>
                   <div class="card-body">
                       <a href="http://about-thyme.com/" class="card-link" target="blank_">Website</a>
-                      <a href="https://goo.gl/maps/5NeFNXoXeGwhMcMM9" class="card-link" target="blank_">Directions</a>
+                      <p id="location2">Location</p>
                   </div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.86516481572!2d36.80082531528435!3d-1.252424635944711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f177356c68b79%3A0x13efc8ff58a57a41!2sAbout%20Thyme%20Restaurant!5e0!3m2!1sen!2s!4v1625070371585!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <div id="details3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.86516481572!2d36.80082531528435!3d-1.252424635944711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f177356c68b79%3A0x13efc8ff58a57a41!2sAbout%20Thyme%20Restaurant!5e0!3m2!1sen!2s!4v1625070371585!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
                 </div>
               </div>
           </div>
@@ -129,77 +135,86 @@
   <div class="container-fluid section-2">
       <center>
           <div class="row row-cols-1 row-cols-md-3 g-4">
+
           <div class="col">
               <div class="card h-100">
               <img src="https://lh5.googleusercontent.com/p/AF1QipO-6pH7DTrvxCSCvq_fdzRUhUF0H_HnO31TImZj=w408-h306-k-no" class="card-img-top" alt="..." width="680px" height="250px">
-              <div class="card-body">
+              <div class="card-body" id="det4">
                   <h5 class="card-title">Talisman Restaurant</h5>
               </div>
-                <div class="details">
+                <div class="details4">
                   <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><b>Physical Address:</b> Ngong Rd, Nairobi</li>
-                      <li class="list-group-item"><b>Phone</b>: 020 7491100</li>
-                      <li class="list-group-item"><b>Email Address</b>: info@talisman.org</li>
+                    <li class="list-group-item"><b>Physical Address:</b> Ngong Rd, Nairobi</li>
+                    <li class="list-group-item"><b>Phone</b>: 020 7491100</li>
+                    <li class="list-group-item"><b>Email Address</b>: info@talisman.org</li>
                   </ul>
                   <div class="card-body">
                       <a href="http://www.thetalismanrestaurant.com/" class="card-link" target="blank_">Website</a>
-                      <a href="https://goo.gl/maps/vUfdJRSE14QTzpE56" class="card-link" target="blank_">Directions</a>
+                      <p id="location3">Location</p>
                   </div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.754667898725!2d36.70162721528477!3d-1.3230327360418246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b64419ee2af%3A0x65ce37d7f19949bf!2sTalisman%20Restaurant!5e0!3m2!1sen!2s!4v1625070616410!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <div id="details4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.754667898725!2d36.70162721528477!3d-1.3230327360418246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1b64419ee2af%3A0x65ce37d7f19949bf!2sTalisman%20Restaurant!5e0!3m2!1sen!2s!4v1625070616410!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
                 </div>
               </div>
           </div>
+
           <div class="col">
-              <div class="card h-100">
-              <img src="https://lh5.googleusercontent.com/p/AF1QipN1MspW4A9rbuQ9jcJvQK07YeqP2Kf96Thbw-Lx=w408-h272-k-no" class="card-img-top" alt="..." width="680px" height="250px">
-              <div class="card-body">
-                  <h5 class="card-title">Hero Restaurant</h5>
-              </div>
-                <div class="details">
-                  <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><b>Physical Address:</b> Trademark Hotel, VM, Nairobi</li>
+            <div class="card h-100">
+            <img src="https://lh5.googleusercontent.com/p/AF1QipN1MspW4A9rbuQ9jcJvQK07YeqP2Kf96Thbw-Lx=w408-h272-k-no" class="card-img-top" alt="..." width="680px" height="250px">
+            <div class="card-body" id="det5">
+                <h5 class="card-title">Hero Restaurant</h5>
+            </div>
+              <div class="details5">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><b>Physical Address:</b> Trademark Hotel, VM, Nairobi</li>
                       <li class="list-group-item"><b>Phone</b>:  0722 183650</li>
                       <li class="list-group-item"><b>Email Address</b>: info@herorestaurant.go.ke</li>
-                  </ul>
-                  <div class="card-body">
-                      <a href="http://www.hero-kenya.com/" class="card-link" target="blank_">Website</a>
-                      <a href="https://goo.gl/maps/XJoh6uboVi5T3q8i8" class="card-link" target="blank_">Directions</a>
-                  </div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.898070676544!2d36.80190751528421!3d-1.2306151359163775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17ae35127451%3A0xee13c82a6707d5a2!2sHero%20Restaurant!5e0!3m2!1sen!2s!4v1625070805276!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </ul>
+                <div class="card-body">
+                    <a href="http://www.hero-kenya.com/" class="card-link" target="blank_">Website</a>
+                    <p id="location4">Location</p>
+                </div>
+                <div id="details5">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.898070676544!2d36.80190751528419!3d-1.230615135916375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17ae35127451%3A0xee13c82a6707d5a2!2sHero%20Restaurant!5e0!3m2!1sen!2s!4v1625078225955!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
               </div>
+            </div>
           </div>
-          <div class="col">
-              <div class="card h-100">
-              <img src="https://lh5.googleusercontent.com/p/AF1QipNtBOMZ44ENoYUzFV47L_LQ4ULrTmirnfXgcPH5=w408-h244-k-no" class="card-img-top" alt="..." width="680px" height="250px">
-              <div class="card-body">
-                  <h5 class="card-title">Harvest Restaurant</h5>
-              </div>
-                <div class="details">
-                  <ul class="list-group list-group-flush">
-                      <li class="list-group-item"><b>Physical Address:</b>: Limuru Rd, VM, Nairobi</li>
-                      <li class="list-group-item"><b>Phone</b>: +254730886000</li>
-                      <li class="list-group-item"><b>Email Address</b>: info@​harvestrestaurant.com​​</li>
-                  </ul>
-                  <div class="card-body">
-                      <a href="http://www.harvestkenya.com/" class="card-link" target="blank_">Website</a>
-                      <a href="https://goo.gl/maps/D6qJMnV7i2ucMbJ17" class="card-link" target="blank_">Directions</a>
-                  </div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.898335367288!2d36.8022938152844!3d-1.2304381359161494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f174eb6738569%3A0x526c2662279f4b25!2sHarvest%20Restaurant!5e0!3m2!1sen!2s!4v1625071034417!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="col">
+                <div class="card h-100">
+                <img src="https://lh5.googleusercontent.com/p/AF1QipNtBOMZ44ENoYUzFV47L_LQ4ULrTmirnfXgcPH5=w408-h244-k-no" class="card-img-top" alt="..." width="680px" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title" id="det6">Harvest Restaurant</h5>
                 </div>
-              </div>
+                  <div class="details6">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><b>Physical Address:</b>: Limuru Rd, VM, Nairobi</li>
+                        <li class="list-group-item"><b>Phone</b>: +254730886000</li>
+                        <li class="list-group-item"><b>Email Address</b>: info@​harvestrestaurant.com​​</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="http://www.harvestkenya.com/" class="card-link" target="blank_">Website</a>
+                        <p id="location5">Location</p>
+                    </div>
+                    <div id="details6">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.898335367288!2d36.8022938152844!3d-1.2304381359161494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f174eb6738569%3A0x526c2662279f4b25!2sHarvest%20Restaurant!5e0!3m2!1sen!2s!4v1625071034417!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                  </div>
+                </div>
+            </div>
           </div>
+          
           </div>
       </center>
   </div>
 
-  <div class="container-fluid section-3">
-      <div class="footer text-center">
-          <p>&copy 2021 Resource Finder</p>
-      </div>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
-  <script src="./hospitals.js"></script>
+    <div class="container-fluid section-3">
+        <div class="footer text-center">
+            <p>&copy 2021 Resource Finder</p>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./Restaurants.js"></script>
 </body>
 </html>

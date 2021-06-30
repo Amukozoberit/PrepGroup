@@ -78,3 +78,9 @@ a{
     padding-bottom: 20px;
     color: #fff;
 }
+.details1, .details2, .details3, .details4,.details5,.details6{
+    display: none;
+}
+#details1, #details2, #details3, #details4, #details5, #details6{
+    display: none;
+}
