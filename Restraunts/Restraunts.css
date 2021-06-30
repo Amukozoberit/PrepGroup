@@ -1,14 +1,28 @@
-body{
-    background-image: url("https://wallpaperaccess.com/full/1867044.jpg");
-    background-size: cover;
+body {
+    height: auto;
+    color: #000;
+    background-color: #eee;
+}
+
+.logo{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumbotron {
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.food{
-    height: 200px;
-    width: 100%;
+
+.navbar{
+    margin-bottom: 50px;
 }
-/* navbar start*/
+
 .navbar.navbar-dark .nav-item .nav-link { 
     color: #fff!important; 
 } 
@@ -30,4 +44,37 @@ body{
 .fixed-top{
     background-color: #000;
 }
-/* navbar end */
+
+.section-1{
+    background-color: #fff;
+    padding-top: 80px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.breadcrumb{
+    margin-left: 100px;
+}
+
+.breadcrumb a{
+    color: #000;
+}
+
+.breadcrumb-item.active{
+    color: #777;
+}
+
+.section-2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-3{
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
