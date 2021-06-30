@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="./hospitals.css">
+  <title>Restaurant Directory</title>
+</head>
+<body>
+    <!--Hero Section-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <b><h4 class="logo">Resource Finder</h4></b>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../home/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Featured Listings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQs</a>
+                </li>
+                </ul>
+                <div class="d-flex">
+                <a href="../listing/listing.html"><button class="btn btn-light ms-3">Add A Listing</button></a>
+                <a href="../login/login.html"><button class="btn btn-light ms-3">Log In</button></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid section-1">
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../home/index.html">Home</a></li>
+            <li class="breadcrumb-item">Listing Category</li>
+            <li class="breadcrumb-item active" aria-current="page">Hospitals</li>
+        </ol>
+        </nav>
+    </div>
+
+    <div class="container-fluid section-2">
+        <center>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                <img src="https://nairobiwire.com/wp-content/uploads/2016/06/knh-1280x720.jpg" class="card-img-top" alt="..." width="680px" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Kenyatta National Hospital</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Address: Hospital Rd, Nairobi</li>
+                    <li class="list-group-item">Phone: 020 2726300</li>
+                    <li class="list-group-item">Email: knhadmin@knh.or.ke</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://knh.or.ke/" class="card-link" target="blank_">Website</a>
+                    <a href="https://goo.gl/maps/mJiVPhwHSVneBiQYA" class="card-link" target="blank_">Directions</a>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                <img src="https://www.mwakilishi.com/sites/default/files/2021-05/pjimage%20-%202021-05-04T162704.845.jpg" class="card-img-top" alt="..." width="680px" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Nairobi Hospital</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Address: 30026 Argwings Kodhek Road</li>
+                    <li class="list-group-item">Phone:  020 2845000</li>
+                    <li class="list-group-item">Email: hosp@nbihosp.org</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://thenairobihosp.org/" class="card-link" target="blank_">Website</a>
+                    <a href="https://goo.gl/maps/3Db6aftSHifJZ9V8A" class="card-link" target="blank_">Directions</a>
+                </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                <img src="https://globalhealthi.com/wp-content/uploads/2017/04/Agha-Khan-UH-Nairobi-.jpg" class="card-img-top" alt="..." width="680px" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Aga Khan Univeristy Hospital</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Address: Hospital Rd, Nairobi</li>
+                    <li class="list-group-item">Phone: 020 2726300</li>
+                    <li class="list-group-item">Email: knhadmin@knh.or.ke</li>
+                </ul>
+                <div class="card-body">
+                    <a href="https://knh.or.ke/" class="card-link" target="blank_">Website</a>
+                    <a href="https://goo.gl/maps/mJiVPhwHSVneBiQYA" class="card-link" target="blank_">Directions</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </center>
+    </div>      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="./hospitals.js"></script>
+</body>
+</html>
