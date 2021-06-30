@@ -1,3 +1,9 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/1867044.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .navbar.navbar-dark .nav-item .nav-link { 
     color: #fff!important; 
 } 
@@ -18,4 +24,32 @@
 
 .fixed-top{
     background-color: #000;
+}
+/* form */
+.fill-form{
+    margin: 80px auto 0px auto;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    width: 400px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    height: 600px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+#submit{
+    color: white;
+    background-color: #000;
+    width: 100px;
+    text-align: center;
+    align-items: center;
 }
