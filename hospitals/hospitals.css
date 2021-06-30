@@ -71,3 +71,10 @@ a{
     text-align: center;
     margin-bottom: 50px;
 }
+
+.section-3{
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
