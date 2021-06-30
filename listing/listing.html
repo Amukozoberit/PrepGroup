@@ -7,6 +7,8 @@
     <title>Listing</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="listing.css">
 </head>
 <body>
@@ -50,7 +52,7 @@
             <p class="lead">Help us help you digitalize your business.</p>
             <p class="lead">You can add your Business to our website using the form below.</p>
             <p class="lead">
-              <h2 class="display-6">Ready?</h2> <span><a class="btn btn-primary btn-lg" href="#" role="button">Click to get Started</a></span>
+              <h2 class="display-6">Ready?</h2> <span><a class="btn btn-primary btn-lg" href="#" role="button" id="started">Click to get Started</a></span>
             </p>
             <hr class="my-4">   
         </div>
@@ -85,9 +87,12 @@
 
     <div class="container-fluid section-3">
         <div class="footer text-center">
-            <p>&copy 2021 Resource Finder</p>
+            <p id="bottom">&copy 2021 Resource Finder</p>
         </div>
     </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./listing.js"></script>
     
 </body>
 </html>
