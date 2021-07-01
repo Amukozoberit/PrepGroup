@@ -1,0 +1,42 @@
+ .container {
+     display: flex;
+     margin: auto;
+     justify-content: center;
+     margin-top: 150px;
+     align-items: center;
+     /* border: rgb(13, 13, 14)solid; */
+     width: 50%;
+ }
+ 
+ form {
+     width: 100%;
+     padding: 20px;
+     background-color: rgb(13, 12, 14);
+     opacity: .7;
+     border-radius: 20px;
+     text-align: left;
+ }
+ 
+ .btn {
+     background-color: black;
+     width: 100%;
+ }
+ 
+ @media (min-width: 1200px) {
+     .container {
+         max-width: 40%;
+     }
+ }
+ 
+ @media (max-width: 540px) {
+     .container {
+         max-width: 60%;
+     }
+ }
+ 
+ body {
+     background: url('https://wallpaperaccess.com/full/1867044.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }

@@ -1,0 +1,48 @@
+.background{
+    background-color:#444444;
+    height:cover;
+    background-size: cover;
+    margin-top: 0%;
+}
+.navbar.navbar-dark .item .nav-link{
+    color: #fff !important;
+}
+.navbar.navbar-dark .item .nav-link:hover{
+    color: #fff !important;
+}
+.navbar-nav li{
+    margin-right: 20px;
+}
+.navbar-dark .nav-toggler{
+    color:#fff;
+    border-color: #777;
+    background-color: #777;
+}
+.fixed-top{
+    background-color: #000;
+}
+
+form{
+    margin-left:400px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: left 100px;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+    text-align: center;
+  } 
+  .signupbtn {
+    float: left;
+    background-color:#fff;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
