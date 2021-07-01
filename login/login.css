@@ -20,10 +20,10 @@
     .container-fluid {
         margin: 200px;
     }
-    
+
     .btn {
-        background-color: black;
         width: 100%;
+        border-color: #fff;
     }
     
     @media (min-width: 1200px) {
@@ -70,4 +70,11 @@
     
     .fixed-top {
         background-color: #000;
+    }
+
+    .section-3{
+        background-color: #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
     }
