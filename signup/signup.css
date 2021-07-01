@@ -1,31 +1,65 @@
-.background{
-    background-color:#444444;
-    height:cover;
+body{
+    background-image: url('https://wallpaperaccess.com/full/1867044.jpg');
     background-size: cover;
-    margin-top: 0%;
+    background-position: center;
 }
-.navbar.navbar-dark .item .nav-link{
-    color: #fff !important;
+.logo{
+    color: #fff;
 }
-.navbar.navbar-dark .item .nav-link:hover{
-    color: #fff !important;
+
+a{
+    text-decoration: none;
 }
+
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+.navbar.navbar-dark .nav-item .nav-link { 
+    color: #fff!important; 
+} 
+
+.navbar.navbar-dark .nav-item .nav-link:hover { 
+    color: #fff!important; 
+} 
+
 .navbar-nav li{
     margin-right: 20px;
 }
-.navbar-dark .nav-toggler{
-    color:#fff;
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
     border-color: #777;
     background-color: #777;
 }
+
 .fixed-top{
     background-color: #000;
+}
+
+.section-1{
+    background-color: #fff;
+    padding-top: 80px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+    
 }
 
 form{
     margin-left:400px;
     padding-top:20px;
     padding-bottom: 20px;
+    margin-top:50px;
+    border: 2px;
 }
 
 input[type=text], input[type=password] {

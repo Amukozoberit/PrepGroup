@@ -1,0 +1,91 @@
+body {
+    height: auto;
+    color: #000;
+    background-color: #eee;
+}
+
+.logo{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+.navbar.navbar-dark .nav-item .nav-link { 
+    color: #fff!important; 
+} 
+
+.navbar.navbar-dark .nav-item .nav-link:hover { 
+    color: #fff!important; 
+} 
+
+.navbar-nav li{
+    margin-right: 20px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: #777;
+    background-color: #777;
+}
+
+.fixed-top{
+    background-color: #000;
+}
+
+.top1{
+    background-color: #fff;
+    padding-top: 80px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.content img{
+    width: 400px;
+    height: 300px;
+}
+
+.breadcrumb{
+    margin-left: 100px;
+}
+
+.breadcrumb a{
+    color: #000;
+}
+
+.breadcrumb-item.active{
+    color: #777;
+}
+
+.section-2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
+
+.footer{
+    background-color: #000;
+    margin-top: 40px;
+    padding-bottom: 20px;
+    color: #fff;
+}
