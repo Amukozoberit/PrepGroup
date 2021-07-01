@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    // $("#details1").hide();
     $("#det1").click(function() {
         $(".details1").toggle();
     });
