@@ -1,32 +1,89 @@
 .navbar.navbar-dark .nav-item .nav-link {
     color: #fff!important;
 }
-
+        
 .navbar.navbar-dark .nav-item .nav-link:hover {
     color: #fff!important;
 }
-
+        
 .navbar-nav li {
     margin-right: 20px;
 }
-
+        
 .navbar-dark .navbar-toggler {
     color: #fff;
     border-color: #777;
     background-color: #777;
 }
-
+        
 .fixed-top {
     background-color: #000;
 }
 
-.card {
-    width: 250px;
-    height: 300px;
+a {
+    height: 100%;
     margin: auto;
-    display: block;
+    padding: auto;
+    text-decoration: none;
+}
+        /* button {
+            background-color: black;
+            color: blue;
+            border: none;
+            border-radius: 10px;
+            padding: 0;
+            width: 100px;
+            height: 100%
+        }
+         */
+body {
+    background: #eeeeee;
+    /* background: url('https://wallpaperaccess.com/full/1867044.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+        
+#location1,
+#location2,
+#location3,
+#location4,
+#location5 {
+    text-decoration: none;
+    color: #0d6efb;
 }
 
-img {
-    width: 100%;
+.breadcrumb{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #fff;
+    border-radius: .25rem;
+    margin-left: 100px;
+}
+        
+.breadcrumb a {
+    color: #000;
+}
+        
+.breadcrumb-item.active {
+    color: #777;
+}
+
+.section-3{
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.section-1{
+    background-color: #fff;
+    padding-top: 60px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
 }

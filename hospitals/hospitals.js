@@ -1,0 +1,40 @@
+$(document).ready(function(){
+    $(".details-1, .details-2, .details-3, .details-4, .details-5, .details-6").hide();
+    $(".map-1, .map-2, .map-3, .map-4, .map-5, .map-6").hide();
+    $("#card-title-1").click(function(){
+        $(".details-1").slideToggle();
+    });
+    $("#card-title-2").click(function(){
+        $(".details-2").slideToggle();
+    });
+    $("#card-title-3").click(function(){
+        $(".details-3").slideToggle();
+    });
+    $("#card-title-4").click(function(){
+        $(".details-4").slideToggle();
+    });
+    $("#card-title-5").click(function(){
+        $(".details-5").slideToggle();
+    });
+    $("#card-title-6").click(function(){
+        $(".details-6").slideToggle();
+    });
+    $(".map-link-1").click(function(){
+        $(".map-1").slideToggle();
+    });
+    $(".map-link-2").click(function(){
+        $(".map-2").slideToggle();
+    });
+    $(".map-link-3").click(function(){
+        $(".map-3").slideToggle();
+    });
+    $(".map-link-4").click(function(){
+        $(".map-4").slideToggle();
+    });
+    $(".map-link-5").click(function(){
+        $(".map-5").slideToggle();
+    });
+    $(".map-link-6").click(function(){
+        $(".map-6").slideToggle();
+    });
+});
