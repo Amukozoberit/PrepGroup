@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://wallpaperaccess.com/full/1867044.jpg');
+    background-color:  #eee;;
     background-size: cover;
     background-position: center;
 }
@@ -59,7 +59,7 @@ form{
     padding-top:20px;
     padding-bottom: 20px;
     margin-top:50px;
-    border: 2px;
+    
 }
 
 input[type=text], input[type=password] {
