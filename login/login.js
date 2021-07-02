@@ -9,7 +9,7 @@ $(document).ready(function(event) {
             alert("you have empty inputs checkout");
         } else {
             if ($("#disabledFieldsetCheck").is(':checked')) {
-                alert(email + '\r\n' + " your password is safe with us");
+                alert("Welcome Back!" + '\r\n' + email);
             } else {
                 alert(email);
             }
