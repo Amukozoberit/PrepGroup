@@ -75,13 +75,8 @@ a{
     text-align: center;
     margin-bottom: 50px;
 }
-#myDIV {
-    width: 100%;
-    padding: 50px 0;
-    text-align: center;
-    background-color: lightblue;
-    margin-top: 20px;
-  }
+
+  
 
 .footer{
     background-color: #000;
