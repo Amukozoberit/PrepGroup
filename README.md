@@ -1,9 +1,6 @@
 # PrepGroup
 
-## Author
-
-(https://github.com/Amukozoberit/PrepGroup/)
-## colaborators
+## Collaborators
 
 Mwashe Berit - Login & Gas Station 
 Pages
