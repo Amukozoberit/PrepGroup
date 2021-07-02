@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./home/index.css">
     <title>Find Resources</title>
     </head>
 <body>
@@ -16,14 +16,14 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
             <div class="container">
-                <b><h4 class="logo">Resource Finder</h4></b>
+                <a href="../PrepGroup/index.html"><b><h4 class="logo"><span style="color: #0145ac;">Resource</span> <span style="color:#82c7a5">Finder</span></h4></b></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="../PrepGroup/index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Featured Listings</a>
@@ -39,8 +39,8 @@
                         </li>
                     </ul>
                     <div class="d-flex">
-                        <button class="btn btn-light ms-3">Add A Listing</button>
-                        <button class="btn btn-light ms-3">Log In</button>
+                        <a href="./listing/listing.html"><button class="btn btn-light ms-3">Add A Listing</button></a>
+                        <a href="./login/login.html"><button class="btn btn-light ms-3">Log In</button></a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row section-2">
                 <div class="col-sm-3">
-                    <a href="#">
+                    <a href="./hospitals/hospitals.html">
                         <div class="card text-center" id="category-1">
                             <div class="card-body">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAABsCAYAAACPZlfNAAACPUlEQVR4Xu3cbU7DMBCEYfdkcDPgZnAyEFJVNUFJXdtaNNLDb38sM/tuhhS4NF9RClyiqlVsY1hYEzCMYWEKhJWLMIaFKRBWLsIYFqZAWLkIY1iYAmHlIoxhYQqElYswhoUpEFYuwhgWpkBYuQhj2KkC3wP6fLTW3gf2jWz5vedtYGNZ45dddBWBYQPdcL+FYVsBEbZrKIQhbFIBhAkdS1tod5hnGMIQhjA/h916wEg0Eo1EI9FINBIPKPCmw5uOtQNS6BA6hI61TG1PQxjCEIYwsV6sF+v75oAPMPt0OlwldAgdQsckRKfbEYYwhCFMrBfrxfq+OTAS6/tO/t9VZVmg7KKrngybbCyGTQp43V6mY9lFCAvrDIYxbI0Ca04pm1RlFyEsrDMYxrA1Cqw5pWxSlV2EsLDOYBjD1iiw5pSySVV2EcLCOmPCsK/W2ueab/fhKa+ttZeHq/4uKGv8sosmDPOPVe4ahGFbWvz1ym56jHy8gjCEHT6lEIawgQhzssUzzDPstKM8wyaBQxjCEDYJ0el2hCEMYQjzq9q3HjASjUQj0Ug0Eo3EAwq8S/Quce2AFDqEDqFjLVPb0xCGMIQhTKwX68X6vjngA8w+nQ5XCR1Ch9AxCZEPMJ8Q0Kspr6aeaJeOpZ5hnmGeYR2gDC9BGMKGm8fGDgWqCesoyZIzBRgW1h8MY1iYAmHlIoxhYQqElYswhoUpEFYuwhgWpkBYuQhjWJgCYeUijGFhCoSVizCGhSkQVi7Cwgz7AU3nvm0n4D7aAAAAAElFTkSuQmCC"/>
@@ -67,7 +67,7 @@
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="#">
+                    <a href="./Restraunts/restraunts.html">
                         <div class="card text-center" id="category-2">
                             <div class="card-body">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAABsCAYAAACPZlfNAAAEBElEQVR4Xu2c4ZENURCFz0ZACESACAiBCBABGSADIRABIkAEiIAMEAHVarfqbZmZPnf2uG7fOa/q/Zqenp7zdd/uebtzz+BPKQXOSkXrYGFgxZLAwAysmALFwnWFGVgxBYqF6wozsGIKFAvXFWZgxRQoFq4rzMCKKVAsXGWFPSPu/QVhM5qftZCvA7gF4N6KwQcAXwD8IO6ZNlEC+0VclbneaH6WbiuS6imAgLb1CViPAbwltKFMGAEpRwBGE1oVz+n9B6D3AG6zopzb3QHwufGcRXMDa1Px0w5YcYV3AO63XWrZ2sB4FV8CeMKbX7L8BuDmznMvnWZgnIo3AHzlTFetJFpLnJyHqOoZo/mJ23sF4KGBLSswIrDvxESY8ZQUh8TJ5BUWw8KbjAZxXKK1xMnkwJ4DYB7mM2YSrSVOJgcWv1jczWgQxyVaS5wYGIELmv9QM7Bca2YIyr0YWKoRIzSTsIyfNBgYWKoRI7SBJTKqBBrNT5o9rrBcIldYolFPgVxhecKmFga2LRGTZKnIEieTP4cxiZgK7R6WS8QIzSQs4yePxmN9qhEjtIF5rF9VgEmONAslTtzDUp3DQKK1xImBGVimAJNo7mF+cM7yaPM4k2TpBSROvCSmOruHERJ5SfSSSKTJuolkNZM48ZJIgZRoLXFiYPMCo+6soxGTsEwvZEJmrpX6kThpqLA0oM4GzP0bWGcoW5czsIFgMKEYGKPSQDaHBhbv814bCEYWyk/yjZRpe5jqf9AzoVXHP27sAHB6jWmBKV56U8Fg/LwG8IgwnBaY6j0qQkOJyQNyO4ZpgcWWCPHydYU+Fv0r3ltmNj2ZFlikverlN0kJbTiJHXkiVuYzNbAKVdZSXQF0amBxg6P3MrZ3XVTf9MBGXhpblsJDARsR2h5Yh1gSTxt5POfElj//c3KMnhVx7N1R7RBL4im0GERiq7r49gQXoCJZ4suM72sT4+GAXQgR4GIzyBhK4hkotrBTAgxAscVdPAtGNcVPZVcBdbgexjzjLNkwGc38yr73+nvO6xbzaDfONvnR4jawJM0NbM868I/O6Zatwvi7xTxapnpJLLa0GJiBCRe+dVdeEoslmoEZ2LICHjo0K6YrzBXmCtPU0rIXV5grzBXmCvtHCnRbXoTxd4vZU6KGmoG5h7mHaWrJU+JfCnRbXoQEu8XsHqahZmDuYe5hmlpyD3MPa8kk97AWtfwHzEUFujVwDas/XrrF7ArTUDMwT4meEjW15CnRU2JLJrmHtajlKdFTYmu+jFhhzHYMjE2rFlexZ+JhbNIYRgSWBn1kAwMrRt/ADKyYAsXCdYUZWDEFioXrCjOwYgoUC9cVZmDFFCgWrivMwIopUCxcV1gxYL8BeSYBfLzUrpQAAAAASUVORK5CYII="/>
@@ -78,7 +78,7 @@
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="#">
+                    <a href="./institutions/institutions.html">
                         <div class="card text-center" id="category-3">
                             <div class="card-body">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGwAAABsCAYAAACPZlfNAAADSklEQVR4Xu2cUVLcQAwFxY3gBrkZ5GbkBOFGoQwO7BJAb6ae5J1sU8Wf/GbcLXlYk3ATfC1F4Gap3bLZQNhiTYAwhC1GYLHtMmEIW4zAYttlwhC2GIHFtuucsD+L3Xv3di2sLSH7nSPs+xawsLaEIEwaVgtrSwjCECYRWKzIMhyWECZMah0La0sIwhAmEVisyDIclhAmTGodC2tLyBfbfYiI++RWfkbEVrfS16H3hbDxVkHYOLNDr0DYofjHF0fYOLNDr0DYofjHF0fYOLNDr0DYofjHF0fYOLNDr0BYgt8F6NJyprpuhQ/OlwbatR+ELTapCEPYVA+8XeR6dPyvOVN0OcPOsSm/PXA1EMJ4JE71AI/EiFAmdYouj0QeifYJm+rEwos4wwrhVkQjrIJqYSbCCuFWRCOsgmphJsIK4VZEI6yCamEmwgrhVkQjrIJqYeZSwrZ/ev1j/3YwUV7huAB15qhsHiNi+944SF8jr6Z+R8StlKoXXbuwv6SeIuJOwaYKU7pTWe9jDcLeiSgs5L/mVjFd21aVTSrNcmk5M837Szlq1Amr+pMOlwbatZ8ZYds1qY+0YF8ZYe8KlIlHWELANRmuHIQh7JUAj8TzTmDCDJMx+3ipuo4zrIpsUS7CisBWxSKsimxRLsKKwFbFIqyKbFEuworAVsUirIpsUS7CisBWxSJsgqzrZbT6pud0iwhD2BuBtIHSgj3K1dEf3Sjv7j7z6dqPev9M2E4AYeftmDZQWsCE/TPgnGGcYZxhag+oTxjOMM6wT3sqbaC0gDOMM+yUAD8l8lOieny91KlPGM4wzjDOsKHR2ouZsEFqnGGcYUMtw4QN4dL+9wovf08IqB3mejvO2/rvOzr1kRbwwZkPzoNPzasqTwcoLSiesKuyIdxs6iMtQJiA2VeS+kgLEOazISSlPtIChAmYfSWpj7QAYT4bQlLqIy1AmIDZV5L6SAsQ5rMhJKU+0gKECZh9JamPtMC3F5IcBBDmoNiYgbBG2I6lEOag2JiBsEbYjqUQ5qDYmIGwRtiOpRDmoNiYgbBG2I6lEOag2JiBsEbYjqUQ5qDYmIGwRtiOpRDmoNiYgbBG2I6lEOag2JiBsEbYjqUQ5qDYmPEMxPZJfAtY6x0AAAAASUVORK5CYII="/>
@@ -89,7 +89,7 @@
                     </a>
                 </div>
                 <div class="col-sm-3">
-                    <a href="#">
+                    <a href="./gas-stations/gas-station.html">
                         <div class="card text-center" id="category-4">
                             <div class="card-body">
                                 <img src="data:image/png;base64,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"/>
@@ -104,9 +104,8 @@
 
     </div>
         
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./home/index.js"></script>
 </body>
 </html>

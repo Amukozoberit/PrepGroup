@@ -1,10 +1,86 @@
-body{
-    background-image: url("https://wallpaperaccess.com/full/1867044.jpg");
-    background-size: cover;
+body {
+    height: auto;
+    color: #000;
+    background-color: #eee;
+}
+
+.logo{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumbotron {
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.food{
-    height: 200px;
-    width: 100%;
+
+.navbar{
+    margin-bottom: 50px;
+}
+
+.navbar.navbar-dark .nav-item .nav-link { 
+    color: #fff!important; 
+} 
+
+.navbar.navbar-dark .nav-item .nav-link:hover { 
+    color: #fff!important; 
+} 
+
+.navbar-nav li{
+    margin-right: 20px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: #777;
+    background-color: #777;
+}
+
+.fixed-top{
+    background-color: #000;
+}
+
+.section-1{
+    background-color: #fff;
+    padding-top: 80px;
+    color: #000;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.breadcrumb{
+    margin-left: 100px;
+}
+
+.breadcrumb a{
+    color: #000;
+}
+
+.breadcrumb-item.active{
+    color: #777;
+}
+
+.section-2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-3{
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.details1, .details2, .details3, .details4,.details5,.details6{
+    display: none;
+}
+#details1, #details2, #details3, #details4, #details5, #details6{
+    display: none;
 }
